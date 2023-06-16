@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfKolikoJeSati", "WcfKolikoJeSati\WcfKolikoJeSati.csproj", "{F8BFA161-4C41-4BD2-819E-D59A398216E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klijent", "Klijent\Klijent.csproj", "{D4FC4E93-2A6B-469E-ABE4-70B9CC116F07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8BFA161-4C41-4BD2-819E-D59A398216E7} = {F8BFA161-4C41-4BD2-819E-D59A398216E7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8BFA161-4C41-4BD2-819E-D59A398216E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BFA161-4C41-4BD2-819E-D59A398216E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BFA161-4C41-4BD2-819E-D59A398216E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BFA161-4C41-4BD2-819E-D59A398216E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FC4E93-2A6B-469E-ABE4-70B9CC116F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FC4E93-2A6B-469E-ABE4-70B9CC116F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FC4E93-2A6B-469E-ABE4-70B9CC116F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FC4E93-2A6B-469E-ABE4-70B9CC116F07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD502FEB-C9B7-4236-84E0-D7FDE922A9F6}
+	EndGlobalSection
+EndGlobal
